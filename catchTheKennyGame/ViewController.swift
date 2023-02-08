@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var kennyArray = [UIImageView]()
     var hideTimer = Timer()
     var highScore = 0
+    var sss = 0
     
     
     //views
@@ -162,13 +163,12 @@ class ViewController: UIViewController {
     
     
     
-    @objc func increaseScore() {    //buraya bu fonksiyonu buton görünürde ise çalıştır tarzı bir şey ekleyeceğiz veya butonlarda bu fonksiyonu görünür olduğu zaman çalıştıran bir if ekleyeceğiz.
+    @objc func increaseScore() {
         score += 1
         scoreLabel.text = "Score: \(score)"
     }
     
     
-
     
 }
 
