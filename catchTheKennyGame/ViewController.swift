@@ -167,7 +167,7 @@ class ViewController: UIViewController {
         score += 1
         scoreLabel.text = "Score: \(score)"
     }
-    
+    //sss
     
     
 }
